@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+/*==========================================================================
+     Google Font End
+  ========================================================================== */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+ }
+ ul,ol{
+  list-style: none;
+ }
+ a,a:hover{
+  text-decoration: none;
+ }
+ img{
+  vertical-align: middle;
+  border: none;
+ }
+ h1,h2,h3,h4,h5,h6,a,p,ul,ol,img,li,.navbar{
+  margin: 0px;
+  padding: 0px;
+ }
+ h1{
+  font-weight: 800;
+ }
+ .h1-p{
+  padding-bottom: 30px;
+  font-size: 46px;
+  color: #02918c;
+  font-weight: 800;
+ }
+ body{
+  font-family: 'Open Sans', sans-serif;
+ }
+  /* ==========================================================================
+      Common CSS End
+   ========================================================================== */
+ 
+.header-part .menu{
+  background: #02918c;
+}
+.menu{
+  padding: 17px 0 23px;
+}
+.mainmenu ul li{
+  padding-left: 48px;
+}
+.mainmenu ul li a{
+  font-size: 12px;
+  font-weight: 800;
+  color: #fff;
+}
+.banner{
+  background: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.banner-overlay{
+  color: #fff;
+  padding: 210px 0;
+  background: linear-gradient(36deg, rgba(14,128,124, .18), rgba(207,201,29, .18));
+}
+.banner-overlay h2{
+  font-size: 30px;
+}
+.banner-overlay h1{
+  font-size: 68px;
+  padding: 15px 0;
+}
+.banner-overlay h4{
+  font-size: 18px;
+}
+.banner img{
+  padding: 50px 0;
+}
+.button a{
+  background: #cfc91d;
+  color: #0b1016;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 20px 40px;
+}
+
+  /* ==========================================================================
+      Header part End
+   ========================================================================== */
+
+.about-part{
+  padding: 100px 0;
+}
+.about-text span{
+  font-size: 23px;
+  font-weight: 800;
+  color: #7e8287;
+}
+.about-text{
+  padding-bottom: 80px;
+}
+.about-text .p2{
+  padding-top: 15px;
+  line-height: 40px;
+}
+.about-feature h4{
+  padding: 30px 0;
+  font-size: 16px;
+  font-weight: 800;
+  color: #7e8287;
+}
+.about-feature p{
+  font-size: 11px;
+  color: #7e8287;
+  padding: 0 45px;
+}
+.about-feature .col-md-3{
+  border-right: 1px solid #d9dbdb;
+}
+
+  /* ==========================================================================
+      About part End
+   ========================================================================== */
+
+.service-part{
+  background: #f0f0e8;
+}
+.service-content{
+  padding: 75px 90px 90px 80px;
+}
+.service-content p{
+  padding-bottom: 30px;
+}
+.service-item{
+  padding-top: 55px;
+}
+.service-item h4{
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #7e8287;
+}
+.service-item p{
+  padding-top: 7px;
+  line-height: 26px;
+}
+.service-part .bg-img{
+  height: 100%;
+  background: url(../images/service-img.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+  /* ==========================================================================
+      Service part End
+   ========================================================================== */
+
+.work-part{
+  padding: 100px 0;
+}
+.work-text .p2{
+  line-height: 50px;
+}
+.work-img{
+  position: relative;
+}
+.work-overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all linear .3s;
+}
+.work-overlay2{
+  background: rgba(2,145,140, .5);
+  width: 85%;
+  height: 85%;
+}
+.overlay-text h4{
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+}
+.overlay-text p{
+  padding: 0 38px;
+  font-size: 13px;
+  color: #fff;
+}
+.work-img:hover .work-overlay{
+  opacity: 1;
+}
+.work-part .col-md-3{
+  padding: 0;
+}
+.work-part .row{
+  padding-top: 80px;
+}
+
+  /* ==========================================================================
+      Work part End
+   ========================================================================== */
+
+.contact-part p{
+  font-size: 16px;
+  color: #7e8287;
+}
+.contact-part .p2{
+  padding-top: 5px;
+  line-height: 50px;
+  padding-bottom: 70px;
+}
+
+  /* ==========================================================================
+      Contact part End
+   ========================================================================== */
+
+.contact-form{
+  padding: 65px 0;
+  background: #0b0b0b;
+}
+.form-group{
+  padding-bottom: 55px;
+}
+.form-control{
+  color: #7e8287;
+  border-color: #898989;
+  background: transparent;
+}
+.form-control:focus {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  outline: 0;
+  box-shadow: none;
+}
+.form-group .name,.email{
+  width: 635px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0%;
+}
+.form-group .text{
+  width: 915px;
+  border-left: none;
+  border-right: none;
+  border-radius: 0%;
+  height: 90px;
+}
+::placeholder{
+  text-align: center;
+}
+.form-control:focus::placeholder{
+  opacity: 0;
+}
+
+.form-group label{
+  color: #7e8287;
+  display: block;
+  text-align: center;
+}
+.btn-primary{
+  background: #cfc91d;
+  color: #0b1016;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  padding: 15px 40px;
+  border: none;
+  transition: all linear .3s;
+}
+
+.copyright p{
+  background: #000;
+  color: #7e8287;
+  font-size: 12px;
+  padding: 35px 0 25px;
+}
+
+
+  /* ==========================================================================
+      Footer part End
+   ========================================================================== */

@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
+
+/*==========================================================================
+     Google Font End
+  ========================================================================== */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+ }
+ ul,ol{
+  list-style: none;
+ }
+ a,a:hover{
+  text-decoration: none;
+ }
+ img{
+  vertical-align: middle;
+  border: none;
+ }
+ h1,h2,h3,h4,h5,h6,a,p,ul,ol,img,li,.navbar{
+  margin: 0px;
+  padding: 0px;
+ }
+ h1{
+  font-weight: 800;
+ }
+ .h1-p{
+  padding-bottom: 30px;
+  font-size: 46px;
+  color: #02918c;
+  font-weight: 800;
+ }
+ body{
+  font-family: 'Roboto', sans-serif;
+ }
+.container {
+  max-width: 1170px;
+}
+  /* ==========================================================================
+      Common CSS End
+   ========================================================================== */
+ 
+.header-part {
+  padding: 65px 0 580px;
+  background: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.menu ul li {
+  padding-left: 45px;
+}
+
+.menu ul li a {
+  font-size: 18px;
+  color: #fff;
+  transition: all linear .3s;
+}
+
+.menu ul li a:hover {
+  color: #5584ff;
+}
+
+.login {
+  padding: 15px 45px;
+  color: #5584ff!important;
+  border: 1px solid #233a72;
+  border-radius: 30px;
+}
+
+.login:hover {
+  color: #fff!important;
+  background: #5584ff;
+  border: 1px solid #5584ff;
+}
+
+.header-part h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 145px;
+}
+
+.header-part h2 {
+  font-size: 36px;
+  color: #8492af;
+  text-align: center;
+  padding-top: 28px;
+}
+
+.btn {
+  padding-top: 80px;
+}
+
+.btn a {
+  padding: 15px 55px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all linear .3s;
+}
+
+.dashboard img {
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+  /* ==========================================================================
+      Header part End
+   ========================================================================== */
+
+.feature-part {
+  padding-top: 260px;
+}
+
+.info-group {
+  position: relative;
+  background: url(../images/feature-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 200px;
+}
+
+.info-group h3 {
+  padding: 60px 0 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #0e1a35;
+}
+
+.info-group p {
+  font-size: 18px;
+  color: #8492af;
+  padding-bottom: 55px;
+}
+
+.info-group a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0e1a35;
+  padding: 15px 85px;
+  border: 1px solid #dadee7;
+  border-radius: 30px;
+  transition: all linear .3s;
+}
+
+.info-group a:hover {
+  background: #dadee7;
+}
+
+.dash ul li {
+  width: 220px;
+  height: 1px;
+  background: #dadee7;
+  position: absolute;
+}
+
+.dash-left {
+  left: 450px;
+  top: 40px;
+}
+
+.dash-right {
+  right: 450px;
+  top: 40px;
+}
+
+.browser {
+  padding-top: 95px;
+  padding-bottom: 120px;
+  background: url(../images/browser-bg.jpg);
+  position: relative;
+}
+
+.browser-info {
+  padding-left: 89px;
+}
+
+.browser-info h1 {
+  font-size: 60px;
+  font-weight: 100;
+  color: #0e1a35;
+  padding-bottom: 60px;
+}
+
+.browser-info p {
+  font-size: 18px;
+  color: #8492af;
+  padding-bottom: 60px;
+}
+
+.browser-info ul li {
+  font-size: 22px;
+  color: #5584ff;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.browser-info ul li i {
+  font-size: 14px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #5584ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.browser img {
+  position: absolute;
+  top: -75px;
+  right: 0px;
+}
+
+  /* ==========================================================================
+      Feature part End
+   ========================================================================== */
+
+
+.drag-part {
+  padding: 170px 0 120px;
+  background: url(../images/d-bg.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.drag-part .drag-card {
+  width: 390px;
+  height: 100px;
+  background: #fff;
+}
+
+.drag-card .card-content {
+  padding: 30px;
+}
+
+.dragndrop h1{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+  padding-bottom: 45px;
+  padding-top: 50px;
+}
+
+.dragndrop p{
+  color: #8492af;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.dragndrop a{
+  width: 34px;
+  height: 34px;
+  padding: 12px;
+  border: 1px solid #a5aec3;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.dragndrop a i{
+  color: #a5aec3;
+  font-size: 20px;
+}
+
+  /* ==========================================================================
+      Feature part End
+   ========================================================================== */
+
+.template-part h1{
+  padding-top: 90px;
+  font-size: 60px;
+  font-weight: 100;
+  color: #0e1a35;
+}
+
+.template-part p{
+  padding-top: 60px;
+  font-size: 18px;
+  color: #8492af;
+}
+
+.layout{
+  padding: 180px 0 280px;
+  background: url(../images/screen.png);
+  background-repeat: no-repeat;
+  background-position: 50% 45%;
+  background-size: 1150px 670px;
+}
+
+.layout h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: #0e1a35;
+}
+
+.layout img{
+  margin: -8px 0 8px;
+  max-width: 49%;
+}
+
+.layout p{
+  font-size: 18px;
+  color: #8492af;
+  padding: 0;
+}
+
+  /* ==========================================================================
+      Template part End
+   ========================================================================== */
+
+.price-part{
+  padding-bottom: 100px;
+}
+
+.price-part h1{
+  font-size: 60px;
+  font-weight: 100;
+  color: #0e1a35;
+  padding-bottom: 100px;
+}
+
+.plan{
+  padding: 45px 55px;
+  font-size: 24px;
+  color: #8492af;
+  box-shadow: 0 0 30px #ecedef;
+}
+
+.plan h3{
+  padding: 56px 0 38px;
+}
+
+.plan p{
+  padding-top: 18px;
+  font-size: 18px;
+}
+
+.join{
+  padding: 15px 45px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background: #5584ff;
+  border: 1px solid #5584ff;
+  border-radius: 30px;
+  margin: 0 30px;
+  transition: all linear .3s;
+}
+.join:hover{
+  color: #0e1a35;
+  background: #dadee7;
+  border: 1px solid #dadee7;
+}
+
+.line{
+  width: 225px;
+  height: 1px;
+  background: #dadee7;
+}
+
+  /* ==========================================================================
+      Price part End
+   ========================================================================== */
+
+footer{
+  padding: 70px 0 60px;
+  background: #0e1a35;
+}
+
+footer p{
+  font-size: 18px;
+  color: #8492af;
+}
+
+footer ul li a{
+  font-size: 18px;
+  color: #8492af;
+}
+
+.link li a{
+  margin-left: 50px;
+}
+
+.social{
+  margin-left: 30px;
+}
+.social li a{
+  margin-left: 20px;
+}

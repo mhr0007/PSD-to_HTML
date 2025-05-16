@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,700i|Open+Sans:300,400,600,700,800');
+/*==========================================================================
+     Google Font End
+  ========================================================================== */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+ }
+ ul,ol{
+  list-style: none;
+ }
+ a,a:hover{
+  text-decoration: none;
+ }
+ img{
+  vertical-align: middle;
+  border: none;
+ }
+ h1,h2,h3,h4,h5,h6,a,p,ul,ol,img,li,.navbar{
+  margin: 0px;
+  padding: 0px;
+ }
+ body{
+  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
+ }
+  /* ==========================================================================
+      Common CSS End
+   ========================================================================== */
+
+.header-part{
+  padding: 52px 0 380px;
+  background: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+.upper-header{
+  padding-bottom: 348px;
+}
+.upper-header p{
+  font-family: 'Merriweather', serif;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.lower-header h1{
+  font-size: 60px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.lower-header p{
+  font-size: 13px;
+  width: 440px;
+}
+  /* ==========================================================================
+      Header part End
+   ========================================================================== */
+
+.detail-part{
+  padding: 115px 0 160px;
+}
+.detail-part p{
+  color: #959595;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+.detail-part h2{
+  font-size: 35px;
+  font-weight: 300;
+  color: #222626;
+  padding-bottom: 35px;
+}
+.detail-part img{
+  position: absolute;
+  right: 0;
+  top: -805px;
+}
+.detail-part .text{
+  padding-top: 180px;
+}
+
+.content-image{
+  padding: 85px 0 95px;
+}
+.content-image .image-text{
+  padding: 50px 55px 60px 40px;
+}
+.content-image h2,.response-part h2{
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+}
+.content-image p{
+  font-size: 13px;
+  color: #fff;
+}
+.content-image a, .about-part a{
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  transition: all linear .2s;
+}
+.content-image a:hover, .about-part a:hover{
+  color: #222626;
+}
+.content-col-1{
+  background: #f5989d;
+}
+.content-col-2{
+  background: #615f7d;
+}
+.content-col-3{
+  background: url(../images/content-img1.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.content-col-4{
+  background: url(../images/content-img2.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.content-col-4 p{
+  width: 440px;
+}
+.content-col-5{
+  background: #82ca9c;
+}
+.detail-end h2, .response-part h2{
+  padding-bottom: 68px;
+}
+.detail-end h6,.response-part h6{
+  font-size: 13px;
+  font-weight: 600;
+  color: #67676d;
+  padding-bottom: 30px;
+}
+
+  /* ==========================================================================
+      Detail part End
+   ========================================================================== */
+
+.about-part{
+  padding: 455px 0 135px;
+  background: url(../images/content-img3.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.about-part h1{
+  font-size: 60px;
+  font-weight: 300;
+}
+.about-part p{
+  width: 440px;
+  line-height: 24px;
+  padding: 30px 0 14px;
+  font-size: 13px;
+}
+
+
+  /* ==========================================================================
+      About part End
+   ========================================================================== */
+
+.response-part{
+  background: #82ca9c;
+  padding: 125px 0 170px;
+  color: #fff;
+}
+.response-part h6{
+  color: #fff;
+}
+  /* ==========================================================================
+      Response part End
+   ========================================================================== */
+
+.product-part{
+  background: #f6f7fa;
+  padding: 100px 0 145px;
+}
+.card-body p{
+  font-size: 14px;
+  color: #8297a7;
+}
+.card-body h5{
+  font-size: 30px;
+  font-weight: 300;
+  color: #2e3b4e;
+}
+.product-part .btn-1{
+  padding: 5px 17px;
+  background: #e1e1e1;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+}
+.product-part .btn-2{
+  padding: 15px 28px;
+  background: #82ca9c;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.card-2{
+  box-shadow: 0px 0px 25px rgba(0,0,0, .2);
+  border-radius: 0;
+}
+.card-2 .btn-1{
+  padding: 5px 17px;
+  background: #bd8cbf;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+.card-2 .btn-2{
+  padding: 15px 28px;
+  background: #82ca9c;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.icon li{
+  padding-right: 15px;
+}
+.icon li a{
+  color: #c5c5c5;
+  font-size: 25px;
+}
+.card-2 .icon li{
+  padding-bottom: 50px;
+}
+
+  /* ==========================================================================
+      Product part End
+   ========================================================================== */
+
+.footer-part{
+  padding: 130px 0 155px;
+  background: #192431;
+  color: #f6f7fa;
+  font-size: 13px;
+}
+.footer-part h6{
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 27px;
+}
+.footer-part-left p{
+  padding-bottom: 75px;
+}
+.footer-part-left a{
+  color: #f6f7fa;
+  font-size: 13px;
+  line-height: 26px;
+}
+.footer-part-right p{
+  color: #57697f;
+  font-size: 12px;
+}
+.form-control{
+  border-color: #999;
+  background: transparent;
+  height: 60px;
+  border-radius: 3px;
+}
+.form-control:focus {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  outline: 0;
+  box-shadow: none;
+}
+.form-control::placeholder{
+  color: #57697f;
+}
+.form-control:focus::placeholder{
+  color: #fff;
+}
+.input-group .input-group-append .input-group-text{
+  width: 70px;
+  background: #82ca9c;
+}
+.input-group .input-group-append .input-group-text a{
+  color: #fff;
+  font-size: 30px;
+}
+
+  /* ==========================================================================
+      Footer part End
+   ========================================================================== */
